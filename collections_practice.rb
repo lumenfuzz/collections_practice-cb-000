@@ -33,7 +33,7 @@ def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
     new_array << item
-    counter += 1
+    i += 1
   end
   new_array
 end
