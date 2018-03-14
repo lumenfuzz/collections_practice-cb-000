@@ -15,3 +15,21 @@ def sort_array_char_count(array)
     a.length <=> b.length
   end
 end
+
+def swap_elements(array)
+  temp = array[1]
+  array[2] = array[1]
+  array[1] = temp
+end
+
+def reverse_array(array)
+  array = array.reverse
+end
+
+def kesha_maker(array)
+  i = 0
+  array.each do |item|
+    new_array[i] = item[2] = "$"
+    counter += 1
+  end
+end
