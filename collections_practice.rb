@@ -32,4 +32,10 @@ def kesha_maker(array)
     new_array[i] = item[2] = "$"
     counter += 1
   end
+  new_array
 end
+
+def find_a(array)
+  new_array = []
+  array.find do |item|
+    new_array <<  
