@@ -44,6 +44,19 @@ end
 def sum_array(array)
   sum = 0
   array.each do |item|
-    sum += array[item]
+    sum += item
+  end
+end
+
+def add_s(array)
+  new_array = []
+  i = 0
+  array.each do |item|
+    if i != 1 
+      new_array << "#{item}s"
+    else
+      new_array << item
+    end
+    i += 1
   end
 end
