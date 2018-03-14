@@ -52,11 +52,12 @@ def add_s(array)
   new_array = []
   i = 0
   array.each do |item|
-    if i != 1 
+    if i != 1
       new_array << "#{item}s"
     else
       new_array << item
     end
     i += 1
   end
+  new_array
 end
